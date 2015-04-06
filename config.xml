@@ -12,6 +12,16 @@
     </description>
 
     <author href="http://ericdecoff.com" email="ericdecoff@gmail.com">Eric DeCoff</author>
+
+	<!-- Plugins -->
+
+	<gap:plugin name="org.apache.cordova.device" />
+	<gap:plugin name="org.apache.cordova.media" />
+	<gap:plugin name="org.apache.cordova.inappbrowser" />        
+    <gap:plugin name="org.apache.cordova.dialogs" />
+    <gap:plugin name="org.apache.cordova.vibration" />
+    <gap:plugin name="de.appplant.cordova.plugin.email-composer" /> <!-- email-composer plugin -->       
+    <gap:plugin name="com.pushwoosh.plugins.pushwoosh" />
         
     <!-- ICONS -->
         
