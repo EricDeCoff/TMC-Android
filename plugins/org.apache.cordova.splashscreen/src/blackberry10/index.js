@@ -1,0 +1,1 @@
+module.exports={show:function(o,n,e,i){var t=new PluginResult(e,i);t.error("Not supported on platform",!1)},hide:function(o,n,e,i){var t=new PluginResult(e,i);window.qnx.webplatform.getApplication().windowVisible=!0,t.ok(void 0,!1)}};

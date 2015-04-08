@@ -1,0 +1,1 @@
+!function(){win=null,module.exports={show:function(){null===win&&(win=window.open("splashscreen.html"))},hide:function(){null!==win&&(win.close(),win=null)}},require("cordova/tizen/commandProxy").add("SplashScreen",module.exports)}();
