@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <widget xmlns = "http://www.w3.org/ns/widgets" 
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+		id = "com.ericdecoff.tmc"
+		version = "3.7.0"
+		versionCode = "370">
+
+    <name>Temple Medical</name>
+
+    <description>
+ 	   Temple Medical Clinic	
+    </description>
+
+    <author href="http://ericdecoff.com" email="ericdecoff@gmail.com">Eric DeCoff</author>
+
+	<!-- Plugins -->
+
+	<gap:plugin name="org.apache.cordova.device" />
+	<gap:plugin name="org.apache.cordova.media" />
+	<gap:plugin name="org.apache.cordova.inappbrowser" />        
+    <gap:plugin name="org.apache.cordova.dialogs" />
+    <gap:plugin name="org.apache.cordova.vibration" />
+    <gap:plugin name="de.appplant.cordova.plugin.email-composer" /> <!-- email-composer plugin -->       
+    <gap:plugin name="com.pushwoosh.plugins.pushwoosh" />
+        
+    <!-- ICONS -->
+        
+    <icon src="icon.png" /> <!-- default 512 pixels -->
+    
+    <!-- iOS6 -->
+
+
+
+
+    <!-- iOS7 -->
+
+
+
+        
+    <icon src="platform/android/res/drawable-ldpi/appicon.png" gap:platform="android" gap:density="ldpi" />
+    <icon src="platform/android/res/drawable-mdpi/appicon.png" gap:platform="android" gap:density="mdpi" /> 
+    <icon src="platform/android/res/drawable-hdpi/appicon.png" gap:platform="android" gap:density="hdpi" />
+    <icon src="platform/android/res/drawable-xhdpi/appicon.png" gap:platform="android" gap:density="xhdpi" />
+    <icon src="platform/android/res/drawable-xxhdpi/appicon.png" gap:platform="android" gap:density="xxhdpi" /> 
+    <icon src="platform/android/res/drawable-xxxhdpi/appicon.png" gap:platform="android" gap:density="xxxhdpi" />
+        
+
+
+        
+    <!-- SPLASH SCREENS -->
+        
+    <gap:splash src="splash.png" />
+    
+    <!-- non retina -->
+
+    <!-- retina 4 -->
+
+    <!-- retina 5+ -->
+
+        
+    <!-- iPad non retina -->    
+
+
+    <!-- iPad Retina -->
+
+
+        
+    <!-- android splash -->    
+    <!-- 200x320 -->        
+    <gap:splash src="Resources/android/images/res-long-port-ldpi/default.png" gap:platform="android" gap:density="ldpi" /> 
+    <!-- 320x480 -->    
+    <gap:splash src="Resources/android/images/res-long-port-mdpi/default.png" gap:platform="android" gap:density="mdpi" />
+    <!-- 480x800 -->        
+    <gap:splash src="Resources/android/images/res-long-port-hdpi/default.png" gap:platform="android" gap:density="hdpi" />
+    <!-- 720x1280 -->        
+    <gap:splash src="Resources/android/images/res-long-port-xhdpi/default.png" gap:platform="android" gap:density="xhdpi" />  
+        
+    <!-- Windows Phone 7 480x800 -->
+
+
+    <!-- PLATFORM SELECTION -->
+
+
+    <gap:platform name="android" />
+
+        
+    <!-- GENERAL PREFERENCES -->
+        
+    <preference name="phonegap-version" value="3.7.0" />
+    <preference name="orientation" value="default" />
+    <preference name="fullscreen" value="true" /> <!-- remove the upper bar on iOS and Android -->
+        
+    <!-- iOS PREFERENCES -->
+    
+    <preference name="target-device" value="universal" />
+    <preference name="prerendered-icon" value="true" />
+    <preference name="ios-statusbarstyle" value="black-opaque" />
+    <preference name="detect-data-types" value="false" />
+    <preference name="exit-on-suspend" value="false" />
+
+    <preference name="webviewbounce" value="false" />
+    <preference name="stay-in-webview" value="false" />
+    <preference name="show-splash-screen-spinner" value="false" />
+    <preference name="auto-hide-splash-screen" value="true" /> <!-- if set to false, the splash screen must be hidden using a JavaScript API -->
+        
+    <!-- ANDROID PREFERENCES -->
+        
+    <preference name="android-minSdkVersion" value="7" /> <!-- minimum Android 2.1 -->
+    <!-- <preference name="android-maxSdkVersion" value="19" /> maximum Android 4.4 -->
+    <preference name="android-targetSdkVersion" value="19" /> <!-- targeting Android 4.4 -->
+    <preference name="android-installLocation" value="auto" />
+    <preference name="android-windowSoftInputMode" value="stateHidden|adjustResize" />
+    <preference name="SplashScreenDelay" value="5000" />
+
+    <preference name="load-url-timeout" value="20000" />
+        
+    <!-- PHONEGAP API FEATURES PREFERENCES -->
+        
+    <preference name="permissions" value="none"/>
+    <!--
+    <feature name="http://api.phonegap.com/1.0/battery"/>
+    <feature name="http://api.phonegap.com/1.0/camera"/>
+    <feature name="http://api.phonegap.com/1.0/contacts"/>
+    <feature name="http://api.phonegap.com/1.0/file"/>
+    <feature name="http://api.phonegap.com/1.0/geolocation"/>
+    <feature name="http://api.phonegap.com/1.0/media"/>
+    <feature name="http://api.phonegap.com/1.0/network"/>
+    <feature name="http://api.phonegap.com/1.0/notification"/>
+    -->
+
+    <access origin="*" />
+
+</widget>

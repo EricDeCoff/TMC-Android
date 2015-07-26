@@ -1,0 +1,50 @@
+<style type="text/css">
+    .box-date {
+      /* background-color:#998877; */
+      float:right;
+      margin-left:10px;
+      padding:45px 5px 0;
+      position:relative;
+    }
+    .platform-android.platform-cordova:not(.fullscreen) .box-date {
+        top: -10px;
+    }
+    .platform-ios.platform-cordova:not(.fullscreen) .box-date {
+        top: -30px;
+    }
+    .box-date .day {
+      font-size:45px;
+      left:15px;
+      line-height:45px;
+      position:absolute;
+      top:0;
+    }
+    .box-date .year {
+      -webkit-transform: rotate(360deg);
+      -moz-transform: rotate(360deg);
+      filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+      display:block;
+      position:absolute;
+      line-height: 13px;
+      left:75px;
+      right:15px;
+      top:10px;
+    }
+    .box-date .month {
+      /* left:-15px; */
+      text-align: right;
+      font-size:12px;
+    /*
+      border-style: solid;
+      border-width: 1px;
+    */
+      display: inline-block;
+      max-width: 63px;
+      text-transform:uppercase;
+    }
+</style>
+<div class="box-date">
+    <span class="day">{{ boxDate.DD }}</span> 
+    <span class="year">{{ boxDate.YYYY }}</span>
+    <span class="month" style="width: 100px">{{ boxDate.Month }}</span> 
+</div>
