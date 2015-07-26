@@ -1,1 +1,0 @@
-var cordova=require("cordova"),exec=require("cordova/exec");module.exports={getInfo:function(e){Cordova.exec(function(o,r,c,d,a){e({name:name,model:o,cordova:r,platform:c,uuid:d,version:a})},null,"com.cordova.Device","getInfo",[])}},require("cordova/exec/proxy").add("Device",module.exports);
