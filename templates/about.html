@@ -1,11 +1,5 @@
 <ion-view hide-nav-bar="true">
-    <ion-header-bar class="bar-positive bar bar-header disable-user-behavior" align-title="center">
-        <custom-boxdate></custom-boxdate>
-        <custom-multilinetitle></custom-multilinetitle>
-        <!--
-        <custom-settings></custom-settings>
-        -->
-    </ion-header-bar>
+    <ux-header></ux-header>
     <ion-content class="padding about-bgImage"> <!-- style="background: #474747;"> -->
                     <!--
         <div class="text-center">
@@ -25,22 +19,19 @@
                         </div>
                         <div class="col landscape">&nbsp;</div>
                         </div>
-                        <tmc-abouttable src="img/lori_hudson_blank.png" 
-                                        items='[{
-"col1":"<h1 style=\"color:#0066ff;\">Walkings<br>Welcome</h1>",
-                                               },{
-"col1":"<h1 style=\"color:#0066ff;\">Short Wait Times</h1>"
-                                               },{
-"col1":"<h1 style=\"color:#0066ff\">Whole Family Care</h1>",
-                                               },{
-"col1":"<h1 style=\"color:#0066ff;\">Wellness / Sick Visits</h1>"
-                                               },{
-"col1":"<h1 style=\"color:#0066ff\">Sports Physicals</h1>"
-                                               },{
-"col1":"<h1 class=\"text-right\" style=\"color:#0066ff\"><br/>Lori Hudson, FNP</h1>"
-                                               }]'>
-                            <h1>tmc-abouttable</h1>
-                        </tmc-abouttable>                
+                        <tmc-aboutinfo src="img/lori_hudson_blank.png"
+items='
+[
+    {"col1":"<h1>Walkings<br>Welcome</h1>"},
+    {"col1":"<h1>Short Wait Times</h1>"},
+    {"col1":"<h1>Whole Family Care</h1>"},
+    {"col1":"<h1>Wellness / Sick Visits</h1>"},
+    {"col1":"<h1>Sports Physicals</h1>"},
+    {"col1":"<h1><br/>Lori Hudson, FNP</h1>"}
+]
+' >
+                            <h1>tmc-aboutinfo</h1>
+                        </tmc-aboutinfo>                
                     </div>
                 </div>
             </div>

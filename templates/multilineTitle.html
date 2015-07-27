@@ -18,15 +18,15 @@
 }
 .offsetLine1 {
     left: 50px !important;
-    z-index: 9999;
+    z-index: 9999 !important;
 }
 .offsetLine2 {
     top: 20px !important;
     left: 50px !important;
-    z-index: 9998;
+    z-index: 9999 !important;
 }
 </style>
 <div>
-    <span ng-click="title_click();" class="title offsetLine1">{{ multilineTitle.line1 }}</span>
-    <span ng-click="title_click();" class="title offsetLine2">{{ multilineTitle.line2 }}</span>
+    <span ng-click="title_click();" class="title offsetLine1">{{ twolineTitle.line1 }}</span>
+    <span ng-click="title_click();" class="title offsetLine2">{{ twolineTitle.line2 }}</span>
 </div>
