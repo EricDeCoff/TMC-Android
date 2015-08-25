@@ -1,3 +1,4 @@
+/* jshint strict: false, -W117 */
 (function(cordova) {
     var cordovaRef = window.PhoneGap || window.Cordova || window.cordova;
 
