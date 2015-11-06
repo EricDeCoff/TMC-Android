@@ -2,8 +2,8 @@
     <widget xmlns = "http://www.w3.org/ns/widgets" 
         xmlns:gap = "http://phonegap.com/ns/1.0"
 		id = "com.ericdecoff.tmc"
-		version = "3.7.0"
-		versionCode = "370">
+		version = "5.2.0"
+		versionCode = "520">
 
     <name>Temple Medical</name>
 
@@ -86,7 +86,7 @@
         
     <!-- GENERAL PREFERENCES -->
         
-    <preference name="phonegap-version" value="3.7.0" />
+    <preference name="phonegap-version" value="5.2.0" />
     <preference name="orientation" value="default" />
     <preference name="fullscreen" value="true" /> <!-- remove the upper bar on iOS and Android -->
         
