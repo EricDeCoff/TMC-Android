@@ -14,20 +14,18 @@
     <author href="http://ericdecoff.com" email="ericdecoff@gmail.com">Eric DeCoff</author>
 
 	<!-- Plugins -->
-<!--
+
 	<gap:plugin name="org.apache.cordova.device" />
 	<gap:plugin name="org.apache.cordova.media" />
 	<gap:plugin name="org.apache.cordova.inappbrowser" />        
     <gap:plugin name="org.apache.cordova.dialogs" />
     <gap:plugin name="org.apache.cordova.vibration" />
--->
-    <!-- email-composer plugin -->
-<!--    
-    <gap:plugin name="de.appplant.cordova.plugin.email-composer" />           
     <gap:plugin name="com.pushwoosh.plugins.pushwoosh" />
--->        
+
+    <!-- email-composer plugin -->   
+    <gap:plugin name="de.appplant.cordova.plugin.email-composer" />
+                      
     <!-- ICONS -->
-        
     <icon src="icon.png" /> <!-- default 512 pixels -->
     
     <!-- iOS6 -->

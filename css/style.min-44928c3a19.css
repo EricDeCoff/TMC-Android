@@ -880,7 +880,6 @@ ion-infinite-scroll .icon:before,ion-infinite-scroll .spinner{-webkit-transform:
 ion-infinite-scroll:not(.active) .icon:before,ion-infinite-scroll:not(.active) .spinner{-webkit-transform:translate3d(-1000px,0,0);transform:translate3d(-1000px,0,0)}
 .overflow-scroll{overflow-x:hidden;overflow-y:scroll;-webkit-overflow-scrolling:touch;top:0;right:0;bottom:0;left:0;position:absolute}
 .overflow-scroll .scroll{position:static;height:100%;-webkit-transform:translate3d(0,0,0)}
-.has-header{top:44px}
 .no-header{top:0}
 .has-subheader{top:88px}
 .has-tabs-top{top:93px}
@@ -2005,8 +2004,8 @@ to{transform:scale(1);opacity:1}}
 .ion-4x{font-size:4em}
 .ion-5x{font-size:5em}
 .ui-header .ui-title{overflow:visible!important;white-space:normal!important}
-.platform-android.platform-cordova:not(.fullscreen) .bar-header:not(.bar-subheader){height:64px}
-.platform-android.platform-cordova:not(.fullscreen) .has-header{top:64px}
+.bar-header:not(.bar-subheader){height:64px}
+.has-header{top:64px}
 .centered{margin:3px auto;text-align:center}
 @media only screen and (orientation:portrait){#homePortrait{display:inline-block}
 #homeLandscape,.landscape{display:none}
