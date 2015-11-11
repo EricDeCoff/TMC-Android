@@ -1993,6 +1993,7 @@ to{transform:scale(1);opacity:1}}
 [nav-bar=stage] .back-text,[nav-bar=stage] .buttons,[nav-bar=stage] .title{position:absolute;opacity:0;-webkit-transition-duration:0s;transition-duration:0s}
 #about-h1{display:block;text-decoration:none;font:Helvetica,Arial,Sans-Serif;text-align:center;color:#999;text-shadow:0 3px 8px #2a2a2a}
 #about-georgia{display:block;text-decoration:none;font:2.25em Helvetica,Arial,Sans-Serif;text-align:center;color:#999;text-shadow:0 3px 8px #2a2a2a}
+#about-years{top:66px}
 #about-table{position:fixed;top:0;left:0}
 #about-info-col1 h1,#about-info-col2 h1{color:#06f}
 .about-bgImage{background-image:url(../img/lori_hudson_blank.png);background-position:center;background-repeat:no-repeat;background-size:cover}
