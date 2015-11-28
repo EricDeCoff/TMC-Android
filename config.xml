@@ -132,7 +132,7 @@
     -->
 
     <access origin="*" />
-    <access origin="tel:" launch-external="yes">
-    <access origin="geo:" launch-external="yes">
+    <access origin="tel:" launch-external="yes" />
+    <access origin="geo:" launch-external="yes" />
 
 </widget>
