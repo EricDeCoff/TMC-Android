@@ -14,10 +14,11 @@
     <author href="http://ericdecoff.com" email="ericdecoff@gmail.com">Eric DeCoff</author>
 
 	<!-- Plugins -->
+	<gap:plugin name="cordova-plugin-inappbrowser" source="npm"/>        
 <!--
 	<gap:plugin name="cordova-plugin-device" source="npm"/>
 	<gap:plugin name="cordova-plugin-media" source="npm"/>
-	<gap:plugin name="cordova-plugin-inappbrowser" source="npm"/>        
+
     <gap:plugin name="cordova-plugin-dialogs" source="npm"/>
     <gap:plugin name="cordova-plugin-vibration" source="npm" />
     <gap:plugin name="com.pushwoosh.plugins.pushwoosh" />
