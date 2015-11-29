@@ -1,4 +1,5 @@
 <a class="tmc-phone-long button button-outline button-balanced tmcPhoneLong"
-    href="tel://770-562-9007"
-    >{{ phone | filterPhone }}<br/><span class="ion-ios-telephone">&nbsp;<b>CALL NOW</b>
+    href="#"
+    ng-click="tmcCall('{{ phone }}')">
+    {{ phone | filterPhone }}<br/><span class="ion-ios-telephone">&nbsp;<b>CALL NOW</b>
 </a>
