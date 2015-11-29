@@ -130,8 +130,9 @@
     <feature name="http://api.phonegap.com/1.0/network"/>
     <feature name="http://api.phonegap.com/1.0/notification"/>
     -->
-
+    <!-- removed  
     <access origin="*" />
+    -->
     <access origin="tel:*" launch-external="yes" />
     <access origin="geo:*" launch-external="yes" />
 
