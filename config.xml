@@ -70,8 +70,13 @@
     
     
     <!-- SplashScreen -->
-    <preference name="AutoHideSplashScreen" value="false" />
+    <preference name="SplashScreen" value="splash.jpg" /> <!-- defaults to "img/logo.png" -->
     <preference name="SplashScreenDelay" value="5000" />
+    <preference name="AutoHideSplashScreen" value="false" />
+    
+    <preference name="SplashScreenBackgroundColor" value="green" /> <!-- defaults to "#464646" -->
+    <preference name="ShowSplashScreen" value="false" /> <!-- defaults to "true" -->
+    
     	 
     
            
