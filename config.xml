@@ -83,5 +83,5 @@
     <!-- Whitelist Access -->
     <access origin="tel:*" launch-external="yes" />
     <access origin="geo:*" launch-external="yes" />
-
+    
 </widget>
