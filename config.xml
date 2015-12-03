@@ -55,7 +55,7 @@
     <gap:platform name="android" />
         
     <!-- ANDROID PREFERENCES -->        
-    <preference name="android-minSdkVersion" value="7" /> <!-- minimum Android 2.1 -->
+    <preference name="android-minSdkVersion" value="8" /> <!-- minimum Android 2.1 -->
     <!-- <preference name="android-maxSdkVersion" value="19" /> maximum Android 4.4 -->
     <preference name="android-targetSdkVersion" value="19" /> <!-- targeting Android 4.4 -->
     <preference name="android-installLocation" value="auto" />
