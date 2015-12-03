@@ -15,7 +15,8 @@
     
     <!-- PLUGINS -->
     <gap:plugin name="cordova-plugin-inappbrowser" source="npm"/>
-    <gap:plugin name="cordova-plugin-splashscreen" source="npm"/>        
+    <gap:plugin name="cordova-plugin-splashscreen" source="npm"/> 
+    <gap:plugin name="pushwoosh-cordova-plugin" source="npm">       
     <!--
     <gap:plugin name="cordova-plugin-device" source="npm"/>
     <gap:plugin name="cordova-plugin-media" source="npm"/>
@@ -76,9 +77,6 @@
     
     <preference name="SplashScreenBackgroundColor" value="green" /> <!-- defaults to "#464646" -->
     <preference name="ShowSplashScreen" value="false" /> <!-- defaults to "true" -->
-    
-    	 
-    
            
     <!-- PHONEGAP API FEATURES PREFERENCES -->        
     <preference name="permissions" value="none"/>
