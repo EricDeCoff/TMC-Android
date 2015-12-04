@@ -16,7 +16,8 @@
     <!-- PLUGINS -->
     <gap:plugin name="cordova-plugin-inappbrowser" source="npm"/>
     <gap:plugin name="cordova-plugin-splashscreen" source="npm"/> 
-	<gap:plugin name="pushwoosh-cordova-plugin" source="npm" version="3.6.3"/>
+    <gap:plugin name="pushwoosh-cordova-plugin" source="npm" version="3.6.3"/>
+    
     <!--
     <gap:plugin name="cordova-plugin-device" source="npm"/>
     <gap:plugin name="cordova-plugin-media" source="npm"/>
@@ -84,5 +85,7 @@
     <!-- Whitelist Access -->
     <access origin="tel:*" launch-external="yes" />
     <access origin="geo:*" launch-external="yes" />
+    
+    <access origin="*.pushwoosh.com" />
     
 </widget>
