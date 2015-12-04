@@ -17,6 +17,7 @@
     <gap:plugin name="cordova-plugin-inappbrowser" source="npm"/>
     <gap:plugin name="cordova-plugin-splashscreen" source="npm"/> 
     <gap:plugin name="pushwoosh-cordova-plugin" source="npm" version="3.6.3"/>
+    <gap:plugin name="cordova-plugin-whitelist" source="npm">
     
     <!--
     <gap:plugin name="cordova-plugin-device" source="npm"/>
