@@ -17,7 +17,7 @@
     <gap:plugin name="cordova-plugin-console" source="npm"/>
     <gap:plugin name="cordova-plugin-device" source="npm"/>
     <gap:plugin name="ionic-plugin-keyboard" source="npm"/>
-	
+    
     <gap:plugin name="cordova-plugin-inappbrowser" source="npm"/>
     <gap:plugin name="cordova-plugin-splashscreen" source="npm"/> 
     <gap:plugin name="pushwoosh-cordova-plugin" source="npm" version="3.6.3"/>
@@ -92,5 +92,6 @@
     <access origin="geo:*" launch-external="yes" />
     
     <access origin="*.pushwoosh.com" />
+    <access origin="*" />
     
 </widget>
