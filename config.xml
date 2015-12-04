@@ -14,11 +14,13 @@
     <author href="http://ericdecoff.com" email="ericdecoff@gmail.com">Eric DeCoff</author>
     
     <!-- PLUGINS -->
+    <gap:plugin name="cordova-plugin-console" source="npm"/>
+    <gap:plugin name="cordova-plugin-device" source="npm"/>
+    
     <gap:plugin name="cordova-plugin-inappbrowser" source="npm"/>
     <gap:plugin name="cordova-plugin-splashscreen" source="npm"/> 
     <gap:plugin name="pushwoosh-cordova-plugin" source="npm" version="3.6.3"/>
-	
-	<gap:plugin name="cordova-plugin-whitelist" source="npm" />
+    <gap:plugin name="cordova-plugin-whitelist" source="npm"/>
     
     <!--
     <gap:plugin name="cordova-plugin-device" source="npm"/>
