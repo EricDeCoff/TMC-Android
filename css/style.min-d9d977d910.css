@@ -1985,11 +1985,6 @@ to{transform:scale(1);opacity:1}}
 [nav-view=stage]{opacity:0;-webkit-transition-duration:0;transition-duration:0}
 [nav-bar=stage] .back-text,[nav-bar=stage] .buttons,[nav-bar=stage] .title{position:absolute;opacity:0;-webkit-transition-duration:0s;transition-duration:0s}
 .no-padding{padding:0!important}
-@media only screen and (min-width:320px){.tmc-about-info-col1,.tmc-about-info-col2{color:#06f;font-size:1.5em;line-height:1.17em}
-.tmcPhoneLong{font-size:1.17em}}
-@media only screen and (min-width:768px){.tmc-about-info-col1,.tmc-about-info-col2{font-size:3.75em}
-.tmcPhoneLong{font-size:2.34em}
-.ion-ios-telephone{font-sie:2.34em}}
 @media only screen and (min-width:320px){.homeDOW,.homeHours{font-weight:700}}
 @media only screen and (min-width:768px){.homeDOW,.homeHours{font-size:2em;line-height:1.5}}
 .tmc-phone-long{opacity:100%;padding:4px}
@@ -2025,6 +2020,11 @@ to{transform:scale(1);opacity:1}}
 .platform-android.platform-cordova:not(.fullscreen) .box-date{top:-5px}
 .platform-android.platform-cordova:not(.fullscreen) .box-date .day{top:10px}
 .platform-ios.platform-cordova:not(.fullscreen) .box-date{top:-30px}
+@media only screen and (min-width:320px){.tmc-about-info-col1,.tmc-about-info-col2{color:#06f;font-size:1.5em;line-height:1.17em}
+.tmcPhoneLong{font-size:1.17em}}
+@media only screen and (min-width:768px){.tmc-about-info-col1,.tmc-about-info-col2{font-size:3.75em}
+.tmcPhoneLong{font-size:2.34em}
+.ion-ios-telephone{font-sie:2.34em}}
 #about-h1{display:block;text-decoration:none;font:Helvetica,Arial,Sans-Serif;text-align:center;color:#999;text-shadow:0 3px 8px #2a2a2a}
 #about-georgia{display:block;text-decoration:none;font:2.25em Helvetica,Arial,Sans-Serif;text-align:center;color:#999;text-shadow:0 3px 8px #2a2a2a}
 #about-years{top:66px}
