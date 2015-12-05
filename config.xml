@@ -86,7 +86,9 @@
            
     <!-- PHONEGAP API FEATURES PREFERENCES -->        
     <preference name="permissions" value="none"/>
-
+	<!-- PushWoosh Plugin -->
+	<preference name="android-build-tool" value="gradle" />
+	
     <!-- Whitelist Access -->
     <access origin="tel:*" launch-external="yes" />
     <access origin="geo:*" launch-external="yes" />
