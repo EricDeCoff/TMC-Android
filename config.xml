@@ -73,7 +73,7 @@
     <!-- GENERAL PREFERENCES -->
     <preference name="phonegap-version" value="cli-5.2.0" />
     <preference name="orientation" value="default" />
-    <preference name="fullscreen" value="true" /> <!-- remove the upper bar on iOS and Android -->
+    <preference name="fullscreen" value="false" /> <!-- remove the upper bar on iOS and Android -->
     
     
     <!-- SplashScreen -->
