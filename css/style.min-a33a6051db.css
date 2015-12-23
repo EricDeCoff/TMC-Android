@@ -141,6 +141,7 @@ to{transform:scale(1);opacity:1}}
 .home .scroll-content{display:table!important;width:100%!important;height:100%!important}
 .home .scroll{display:table-cell;vertical-align:middle;text-align:center}
 .home .has-header{padding-top:0;top:0}
+.homeDOW{-webkit-box-flex:0;-webkit-flex:0 0 50%;-moz-box-flex:0;-moz-flex:0 0 50%;-ms-flex:0 0 50%;flex:0 0 50%;flex-grow:0;flex-shrink:0;flex-basis:50%;max-width:50%;text-align:left}
 @media only screen and (min-width:320px){.homeDOW,.homeHours{font-weight:700}}
 @media only screen and (min-width:480px){.homeDOW,.homeHours{font-size:1em;line-height:1.5}}
 @media only screen and (min-width:768px){.homeDOW,.homeHours{font-size:2em;line-height:1.5}}
