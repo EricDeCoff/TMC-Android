@@ -141,7 +141,6 @@ to{transform:scale(1);opacity:1}}
 .home .scroll-content{display:table!important;width:100%!important;height:100%!important}
 .home .scroll{display:table-cell;vertical-align:middle;text-align:center}
 .home .has-header{padding-top:0;top:0}
-.homeDOW{-webkit-box-flex:0;-webkit-flex:0 0 50%;-moz-box-flex:0;-moz-flex:0 0 50%;-ms-flex:0 0 50%;flex:0 0 50%;flex-grow:0;flex-shrink:0;flex-basis:50%;max-width:50%;text-align:left}
 @media only screen and (min-width:320px){.homeDOW,.homeHours{font-weight:700}}
 @media only screen and (min-width:480px){.homeDOW,.homeHours{font-size:1em;line-height:1.5}}
 @media only screen and (min-width:768px){.homeDOW,.homeHours{font-size:2em;line-height:1.5}}
@@ -153,7 +152,6 @@ to{transform:scale(1);opacity:1}}
 @media only screen and (orientation:landscape){#homePortrait{display:none}
 #homeLandscape,.landscape{display:inline-block}
 .portrait{display:none}}
-.tmc-phone-long{opacity:100%;padding:4px}
 .yos-btn{width:90px;height:90px;position:relative;-webkit-border-radius:100px;-moz-border-radius:100px;-ms-border-radius:100px;-o-border-radius:100px;border-radius:100px;background-image:-webkit-gradient(linear,50% 0,50% 100%,color-stop(0,#fafafa),color-stop(50%,#e3e3e3),color-stop(50%,#888),color-stop(100%,#666));background-image:-webkit-linear-gradient(#fafafa,#e3e3e3 50%,#888 50%,#666);background-image:-moz-linear-gradient(#fafafa,#e3e3e3 50%,#888 50%,#666);background-image:-o-linear-gradient(#fafafa,#e3e3e3 50%,#888 50%,#666);background-image:linear-gradient(#fafafa,#e3e3e3 50%,#888 50%,#666);-webkit-box-shadow:inset 0 0 6px rgba(0,0,0,.3),inset 0 2px 5px rgba(0,0,0,.3);-moz-box-shadow:inset 0 0 6px rgba(0,0,0,.3),inset 0 2px 5px rgba(0,0,0,.3);box-shadow:inset 0 0 6px rgba(0,0,0,.3),inset 0 2px 5px rgba(0,0,0,.3);display:inline-block}
 .yos-btn-o{width:190px;height:190px;position:relative;-webkit-border-radius:200px;-moz-border-radius:200px;-ms-border-radius:200px;-o-border-radius:200px;border-radius:200px;background-image:-webkit-gradient(linear,50% 0,50% 100%,color-stop(0,#fafafa),color-stop(50%,#e3e3e3),color-stop(50%,#888),color-stop(100%,#666));background-image:-webkit-linear-gradient(#fafafa,#e3e3e3 50%,#888 50%,#666);background-image:-moz-linear-gradient(#fafafa,#e3e3e3 50%,#888 50%,#666);background-image:-o-linear-gradient(#fafafa,#e3e3e3 50%,#888 50%,#666);background-image:linear-gradient(#fafafa,#e3e3e3 50%,#888 50%,#666);-webkit-box-shadow:inset 0 0 6px rgba(0,0,0,.3),inset 0 2px 5px rgba(0,0,0,.3);-moz-box-shadow:inset 0 0 6px rgba(0,0,0,.3),inset 0 2px 5px rgba(0,0,0,.3);box-shadow:inset 0 0 6px rgba(0,0,0,.3),inset 0 2px 5px rgba(0,0,0,.3);display:inline-block}
 .yos-btn h1{text-align:center;font-size:30px;margin-top:10px!important;margin-bottom:0!important;color:#333;text-shadow:0 1px 0 #fff,0 -1px 0 rgba(0,0,0,.5);font-family:Lobster,cursive;font-weight:400;line-height:1}
@@ -177,6 +175,7 @@ to{transform:scale(1);opacity:1}}
 .yos-btn.teal:hover{-webkit-box-shadow:inset 0 0 6px rgba(0,0,0,.3),inset 0 2px 5px rgba(0,0,0,.3),0 0 28px 6px rgba(16,216,252,.8);-moz-box-shadow:inset 0 0 6px rgba(0,0,0,.3),inset 0 2px 5px rgba(0,0,0,.3),0 0 28px 6px rgba(16,216,252,.8);box-shadow:inset 0 0 6px rgba(0,0,0,.3),inset 0 2px 5px rgba(0,0,0,.3),0 0 28px 6px rgba(16,216,252,.8)}
 .yos-btn.blue:hover{-webkit-box-shadow:inset 0 0 6px rgba(0,0,0,.3),inset 0 2px 5px rgba(0,0,0,.3),0 0 28px 6px rgba(43,95,187,.8);-moz-box-shadow:inset 0 0 6px rgba(0,0,0,.3),inset 0 2px 5px rgba(0,0,0,.3),0 0 28px 6px rgba(43,95,187,.8);box-shadow:inset 0 0 6px rgba(0,0,0,.3),inset 0 2px 5px rgba(0,0,0,.3),0 0 28px 6px rgba(43,95,187,.8)}
 .yos-btn.green:hover{-webkit-box-shadow:inset 0 0 6px rgba(0,0,0,.3),inset 0 2px 5px rgba(0,0,0,.3),0 0 28px 6px rgba(47,217,29,.8);-moz-box-shadow:inset 0 0 6px rgba(0,0,0,.3),inset 0 2px 5px rgba(0,0,0,.3),0 0 28px 6px rgba(47,217,29,.8);box-shadow:inset 0 0 6px rgba(0,0,0,.3),inset 0 2px 5px rgba(0,0,0,.3),0 0 28px 6px rgba(47,217,29,.8)}
+.tmc-phone-long{opacity:100%;padding:4px}
 .bar .title{height:64px!important;right:49px!important}
 .offsetLine1{z-index:0!important}
 .offsetLine2{top:20px!important;z-index:0!important}

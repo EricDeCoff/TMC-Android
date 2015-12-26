@@ -1,38 +1,18 @@
 <ion-view class="home">
-    <ion-content class="padding centered">
-        <div id="homePortrait">
+    <ion-content class="padding centered">        
                 <div class="row">
                     <div class="col text-center">
-                        <img style="max-width: 100%" src="img/background.jpg"/>    
+                        <img class="portrait" style="max-width: 100%" src="img/background.jpg"/>    
                     </div>
                 </div>
                 <div class="col col-center">
                     <div class="row" ng-repeat="day in days">
-                        <div class="homeDOW">{{day.name}}</div>
-                 
-                        <!--
-                        <div class="col-50 text-left homeDOW">{{day.name}}</div>
-                        -->
-                        <div class="col-25 text-right homeHours">{{day.start}}</div>
-                        <div class="col-10 text-center homeHours">&dash;</div>
-                        <div class="col-25 text-left homeHours">{{day.end}}</div>
+                        <div class="col col-50 text-left homeDOW">{{day.name}}</div>
+                        <div class="col col-25 text-right homeHours">{{day.start}}</div>
+                        <div class="col col-10 text-center homeHours">&dash;</div>
+                        <div class="col col-25 text-left homeHours">{{day.end}}</div>
                     </div>
                 </div>
-        </div>
-        <div id="homeLandscape">
-            <div class="row">
-                <div class="col col-center">
-                    <img style="max-width: 100%" src="img/background.jpg"/>    
-                </div>
-                <div class="col col-center">
-                    <div class="row" ng-repeat="day in days">
-                        <div class="col-50 text-left homeDOW">{{day.name}}</div>
-                        <div class="col-25 text-right homeHours">{{day.start}}</div>
-                        <div class="col-10 text-center homeHours">&dash;</div>
-                        <div class="col-25 text-left homeHours">{{day.end}}</div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        </div>        
     </ion-content>
 </ion-view>
