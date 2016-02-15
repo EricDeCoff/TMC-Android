@@ -6,7 +6,7 @@
         type="text"
         pattern="^[a-z]+[a-z0-9._]+@[a-z]+\.[a-z.]{2,5}$" 
         placeholder="Email"
-        ng-model="user.email1"
+        ng-model="register.email1"
         ng-minlength="10"
         required>
 </label>
@@ -23,7 +23,7 @@
         name="email2" 
         type="text" 
         placeholder="Confirm Email"
-        ng-model="user.email2"
+        ng-model="register.email2"
         ng-minlength="10"
         email-check="email1"
         required>

@@ -6,7 +6,7 @@
         type="text"
         pattern="^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$" 
         placeholder="Mobile"
-        ng-model="user.mobile1"
+        ng-model="register.mobile1"
         ng-minlength="10"
         required>
 </label>
@@ -24,7 +24,7 @@
         type="text" 
         pattern="^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$" 
         placeholder="Confirm Mobile"
-        ng-model="user.mobile2"
+        ng-model="register.mobile2"
         ng-minlength="10"
         phone-check="mobile1"
         required>

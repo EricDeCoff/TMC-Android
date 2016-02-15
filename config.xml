@@ -13,76 +13,14 @@
 
     <author href="http://ericdecoff.com" email="ericdecoff@gmail.com">Eric DeCoff</author>
     
-    <!-- PLUGINS -->
-    <gap:plugin name="cordova-plugin-console" source="npm"/>
-    <gap:plugin name="cordova-plugin-device" source="npm"/>
-    <gap:plugin name="ionic-plugin-keyboard" source="npm"/>
+    <!-- inject: ../www/config.plugins.xml -->
     
-    <gap:plugin name="cordova-plugin-inappbrowser" source="npm"/>
-    <gap:plugin name="cordova-plugin-splashscreen" source="npm"/> 
-    <gap:plugin name="cordova-plugin-whitelist" source="npm"/>
+    <!-- build:platform -->
+    <!-- endbuild -->
     
-    <gap:plugin name="pushwoosh-pgb-plugin" source="npm" />
-    <!--
-    <gap:plugin name="cordova-plugin-device" source="npm"/>
-    <gap:plugin name="cordova-plugin-media" source="npm"/>
+    <!-- inject: ../www/config.general.xml -->
     
-    <gap:plugin name="cordova-plugin-dialogs" source="npm"/>
-    <gap:plugin name="cordova-plugin-vibration" source="npm" />
-    <gap:plugin name="com.pushwoosh.plugins.pushwoosh" />
-    
-    <gap:plugin name="de.appplant.cordova.plugin.email-composer" />
-    -->
-    
-    <!-- ICONS -->
-    <icon src="icon.png" /> <!-- default 512 pixels -->
-    
-    <!-- ANDROID -->        
-    <icon src="platform/android/res/drawable-ldpi/appicon.png" gap:platform="android" gap:density="ldpi" />
-    <icon src="platform/android/res/drawable-mdpi/appicon.png" gap:platform="android" gap:density="mdpi" /> 
-    <icon src="platform/android/res/drawable-hdpi/appicon.png" gap:platform="android" gap:density="hdpi" />
-    <icon src="platform/android/res/drawable-xhdpi/appicon.png" gap:platform="android" gap:density="xhdpi" />
-    <icon src="platform/android/res/drawable-xxhdpi/appicon.png" gap:platform="android" gap:density="xxhdpi" /> 
-    <icon src="platform/android/res/drawable-xxxhdpi/appicon.png" gap:platform="android" gap:density="xxxhdpi" />
-        
-    <!-- SPLASH SCREENS -->
-    <gap:splash src="splash.png" />
-    
-    <!-- android 200x320 -->        
-    <gap:splash src="Resources/android/images/res-long-port-ldpi/default.png" gap:platform="android" gap:density="ldpi" /> 
-    <!-- android 320x480 -->    
-    <gap:splash src="Resources/android/images/res-long-port-mdpi/default.png" gap:platform="android" gap:density="mdpi" />
-    <!-- android 480x800 -->        
-    <gap:splash src="Resources/android/images/res-long-port-hdpi/default.png" gap:platform="android" gap:density="hdpi" />
-    <!-- android 720x1280 -->        
-    <gap:splash src="Resources/android/images/res-long-port-xhdpi/default.png" gap:platform="android" gap:density="xhdpi" />  
-    
-    <!-- PLATFORM SELECTION -->
-    <gap:platform name="android" />
-        
-    <!-- ANDROID PREFERENCES -->        
-    <preference name="android-minSdkVersion" value="9" /> <!-- minimum Android ( GingerBread 2.3.2 ) -->
-    <!-- <preference name="android-maxSdkVersion" value="19" /> maximum Android 4.4 -->
-    <preference name="android-targetSdkVersion" value="19" /> <!-- targeting Android 4.4 -->
-    <preference name="android-installLocation" value="auto" />
-    <preference name="android-windowSoftInputMode" value="stateHidden|adjustResize" />
-    
-    <preference name="LoadUrlTimeoutValue" value="20000" />
-
-    
-    <!-- GENERAL PREFERENCES -->
-    <preference name="phonegap-version" value="cli-5.2.0" />
-    <preference name="orientation" value="default" />
-    <preference name="fullscreen" value="false" /> <!-- remove the upper bar on iOS and Android -->
-    
-    
-    <!-- SplashScreen -->
-    <preference name="SplashScreen" value="splash.jpg" /> <!-- defaults to "img/logo.png" -->
-    <preference name="SplashScreenDelay" value="5000" />
-    <preference name="AutoHideSplashScreen" value="false" />
-    
-    <preference name="SplashScreenBackgroundColor" value="green" /> <!-- defaults to "#464646" -->
-    <preference name="ShowSplashScreen" value="false" /> <!-- defaults to "true" -->
+    <!-- inject: ../www/config.splashscreen.xml -->
            
     <!-- PHONEGAP API FEATURES PREFERENCES -->        
     <preference name="permissions" value="none"/>

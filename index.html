@@ -4,13 +4,44 @@
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
     <!-- Enable all requests, inline styles, and eval() -->
+    
+<!--
+"content_security_policy": "script-src 'self' https://cdn.firebase.com https://*.firebaseio.com; object-src 'self'"
+    
     <meta http-equiv="Content-Security-Policy" content="default-src *; style-src &apos;self&apos; &apos;unsafe-inline&apos;; script-src &apos;self&apos; &apos;unsafe-inline&apos; &apos;unsafe-eval&apos;">
+-->    
+<meta http-equiv="Content-Security-Policy"
+          content="default-src *;
+               script-src 'self' 'unsafe-inline' 'unsafe-eval'
+                           127.0.0.1:*
+                           http://*.google.com
+                           http://*.gstatic.com
+                           http://*.googleapis.com
+                           http://*.firebaseio.com
+                           https://*.google.com
+                           https://*.gstatic.com
+                           https://*.googleapis.com
+                           https://*.firebaseio.com
+                           https://*.firebase.com
+                           ;
+               style-src  'self' 'unsafe-inline'
+                          127.0.0.1
+                           http://*.google.com
+                           http://*.gstatic.com
+                           http://*.googleapis.com
+                           http://*.firebaseio.com
+                           https://*.google.com
+                           https://*.gstatic.com
+                           https://*.googleapis.com
+                           https://*.firebaseio.com
+                           https://*.firebase.com
+">
       
     <title></title>
 
     <link href="lib/ionic/css/ionic.css" rel="stylesheet">
       
-    <link rel="stylesheet" href="./css/style.min-dd4bf19eaf.css">
+    <link rel="stylesheet" href="./css/style.min-6a18fb7433.css">
 
       
     <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
@@ -32,7 +63,7 @@
 
   </head>
   <body ng-app="app">
-    <ion-side-menus>
+    <ion-side-menus class="hide">
         
         <ion-side-menu-content ng-controller="NavCtrl">
           <ion-nav-bar class="bar-positive no-padding">
@@ -97,9 +128,16 @@
     <script src="PushWooshNotification.js"></script>
     <script src="js/pushWooshHandler.js"></script>
     -->
+
+    <!-- Firebase -->
+    <script src="https://cdn.firebase.com/js/client/2.2.4/firebase.js"></script>
+
+    <!-- AngularFire -->
+    <script src="lib/angularfire/angularfire.min.js"></script>
+    
     <!-- your app's js -->
     
-    <script src="./js/app.min-8ff0d3db1e.js"></script>
+    <script src="./js/app.min-bab3000dec.js"></script>
 
     
   </body>
