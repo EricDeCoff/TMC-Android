@@ -45,9 +45,6 @@
     <icon src="platform/android/res/drawable-xxhdpi/appicon.png" gap:platform="android" gap:density="xxhdpi" /> 
     <icon src="platform/android/res/drawable-xxxhdpi/appicon.png" gap:platform="android" gap:density="xxxhdpi" />
         
-    <!-- SPLASH SCREENS -->
-    <gap:splash src="splash.png" />
-    
     <!-- android 200x320 -->        
     <gap:splash src="Resources/android/images/res-long-port-ldpi/default.png" gap:platform="android" gap:density="ldpi" /> 
     <!-- android 320x480 -->    
@@ -76,6 +73,9 @@
     <preference name="fullscreen" value="false" /> <!-- remove the upper bar on iOS and Android -->
     
     
+    <!-- SPLASH SCREENS -->
+    <gap:splash src="splash.jpg" />
+    
     <!-- SplashScreen -->
     <preference name="SplashScreen" value="splash.jpg" /> <!-- defaults to "img/logo.png" -->
     <preference name="SplashScreenDelay" value="5000" />
@@ -95,6 +95,13 @@
     <access origin="geo:*" launch-external="yes" />
     
     <access origin="*.pushwoosh.com" />
+    <access origin="*.google.com"/>
+    <access origin="*.gstatic.com"/>
+    <access origin="*.googleapis.com"/>
+    <access origin="*.firebaseio.com"/>
+    <access origin="*.firebase.com"/>
+     
+    
     <access origin="*" />
     
 </widget>
